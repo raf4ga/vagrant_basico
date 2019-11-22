@@ -116,7 +116,7 @@ Vagrant.configure("2") do |config|
 
 	config.vm.define :utility do |utility|
 		#se define en que box estará basada
-    	utility.vm.box = "rhel76"
+    	utility.vm.box = "rhel75"
     	#asigna una IP especifica
     	utility.vm.network :private_network,:ip => "192.168.121.100"
     	#se define el nombre del host de la vm
@@ -128,13 +128,13 @@ Vagrant.configure("2") do |config|
 	      	libvirt.cpus = 2
 	      	#define personalizadamente como estará distribuida la CPU
 			libvirt.cputopology :sockets => '1', :cores => '2', :threads => '1'
-			libvirt.storage :file, :device => :cdrom, :path => '/home/cristian/ISOs/rhel-server-7.7-x86_64-dvd.iso'  
+			libvirt.storage :file, :device => :cdrom, :path => '/home/raf4ga/ISOs/rhel-server-7.5-x86_64-dvd.iso'  
 	    end
 	end
 
 	config.vm.define :tower do |tower|
 		#se define en que box estará basada
-    	tower.vm.box = "rhel76"
+    	tower.vm.box = "rhel75"
     	#asigna una IP especifica
     	tower.vm.network :private_network,:ip => "192.168.121.101"
     	#se define el nombre del host de la vm
@@ -146,13 +146,13 @@ Vagrant.configure("2") do |config|
 	      	libvirt.cpus = 2
 	      	#define personalizadamente como estará distribuida la CPU
 			libvirt.cputopology :sockets => '1', :cores => '2', :threads => '1'
-			libvirt.storage :file, :device => :cdrom, :path => '/home/cristian/ISOs/rhel-server-7.7-x86_64-dvd.iso'
+			libvirt.storage :file, :device => :cdrom, :path => '/home/raf4ga/ISOs/rhel-server-7.5-x86_64-dvd.iso'
 	    end
 	end
 
 	config.vm.define :servera do |servera|
 		#se define en que box estará basada
-    	servera.vm.box = "rhel76"
+    	servera.vm.box = "rhel75"
     	#asigna una IP especifica
     	servera.vm.network :private_network,:ip => "192.168.121.111"
     	#se define el nombre del host de la vm
@@ -164,13 +164,13 @@ Vagrant.configure("2") do |config|
 	      	libvirt.cpus = 2
 	      	#define personalizadamente como estará distribuida la CPU
 			libvirt.cputopology :sockets => '1', :cores => '2', :threads => '1'
-			libvirt.storage :file, :device => :cdrom, :path => '/home/cristian/ISOs/rhel-server-7.7-x86_64-dvd.iso'
+			libvirt.storage :file, :device => :cdrom, :path => '/home/raf4ga/ISOs/rhel-server-7.5-x86_64-dvd.iso'
 	    end
   	end
 
 	config.vm.define :serverb do |serverb|
 		#se define en que box estará basada
-    	serverb.vm.box = "rhel76"
+    	serverb.vm.box = "rhel75"
     	#asigna una IP especifica
     	serverb.vm.network :private_network,:ip => "192.168.121.112"
     	#se define el nombre del host de la vm
@@ -182,13 +182,13 @@ Vagrant.configure("2") do |config|
 	      	libvirt.cpus = 2
 	      	#define personalizadamente como estará distribuida la CPU
 			libvirt.cputopology :sockets => '1', :cores => '2', :threads => '1'
-			libvirt.storage :file, :device => :cdrom, :path => '/home/cristian/ISOs/rhel-server-7.7-x86_64-dvd.iso'
+			libvirt.storage :file, :device => :cdrom, :path => '/home/raf4ga/ISOs/rhel-server-7.5-x86_64-dvd.iso'
 	    end
   	end
 
 	config.vm.define :serverc do |serverc|
 		#se define en que box estará basada
-    	serverc.vm.box = "rhel76"
+    	serverc.vm.box = "rhel75"
     	#asigna una IP especifica
     	serverc.vm.network :private_network,:ip => "192.168.121.113"
     	#se define el nombre del host de la vm
@@ -200,13 +200,13 @@ Vagrant.configure("2") do |config|
 	      	libvirt.cpus = 2
 	      	#define personalizadamente como estará distribuida la CPU
 			libvirt.cputopology :sockets => '1', :cores => '2', :threads => '1'
-			libvirt.storage :file, :device => :cdrom, :path => '/home/cristian/ISOs/rhel-server-7.7-x86_64-dvd.iso'
+			libvirt.storage :file, :device => :cdrom, :path => '/home/raf4ga/ISOs/rhel-server-7.5-x86_64-dvd.iso'
 	    end
 	end
 
 	config.vm.define :serverd do |serverd|
 		#se define en que box estará basada
-    	serverd.vm.box = "rhel76"
+    	serverd.vm.box = "rhel75"
     	#asigna una IP especifica
     	serverd.vm.network :private_network,:ip => "192.168.121.114"
     	#se define el nombre del host de la vm
@@ -218,13 +218,13 @@ Vagrant.configure("2") do |config|
 	      	libvirt.cpus = 2
 	      	#define personalizadamente como estará distribuida la CPU
 			libvirt.cputopology :sockets => '1', :cores => '2', :threads => '1'
-			libvirt.storage :file, :device => :cdrom, :path => '/home/cristian/ISOs/rhel-server-7.7-x86_64-dvd.iso'  
+			libvirt.storage :file, :device => :cdrom, :path => '/home/raf4ga/ISOs/rhel-server-7.5-x86_64-dvd.iso'  
 	    end
 	end
 
 	config.vm.define :servere do |servere|
 		#se define en que box estará basada
-    	servere.vm.box = "rhel76"
+    	servere.vm.box = "rhel75"
     	#asigna una IP especifica
     	servere.vm.network :private_network,:ip => "192.168.121.115"
     	#se define el nombre del host de la vm
@@ -236,13 +236,13 @@ Vagrant.configure("2") do |config|
 	      	libvirt.cpus = 2
 	      	#define personalizadamente como estará distribuida la CPU
 			libvirt.cputopology :sockets => '1', :cores => '2', :threads => '1'
-			libvirt.storage :file, :device => :cdrom, :path => '/home/cristian/ISOs/rhel-server-7.7-x86_64-dvd.iso'
+			libvirt.storage :file, :device => :cdrom, :path => '/home/raf4ga/ISOs/rhel-server-7.5-x86_64-dvd.iso'
 	    end
 	end
 
 	config.vm.define :serverf do |serverf|
 		#se define en que box estará basada
-    	serverf.vm.box = "rhel76"
+    	serverf.vm.box = "rhel75"
     	#asigna una IP especifica
     	serverf.vm.network :private_network,:ip => "192.168.121.116"
     	#se define el nombre del host de la vm
@@ -254,7 +254,7 @@ Vagrant.configure("2") do |config|
 	      	libvirt.cpus = 2
 	      	#define personalizadamente como estará distribuida la CPU
 			libvirt.cputopology :sockets => '1', :cores => '2', :threads => '1'
-			libvirt.storage :file, :device => :cdrom, :path => '/home/cristian/ISOs/rhel-server-7.7-x86_64-dvd.iso'  
+			libvirt.storage :file, :device => :cdrom, :path => '/home/raf4ga/ISOs/rhel-server-7.5-x86_64-dvd.iso'  
 	    end
 	end
 
